@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tanvi's Portfolio</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+      body {
+        background-color: #000000;
+      }
+
+      .container {
+        position: absolute;
+        width: 798px;
+        height: 738px;
+        left: 30%;
+        z-index: -999;
+      }
+
+      #catto-image {
+        position: relative;
+        height: 400px;
+        width: 400px;
+        background-image: url("./catto.jpg");
+        background-size: cover;
+        border-radius: 50%;
+        top: 39px;
+        left: 25%;
+        z-index: 1;
+      }
+
+      .content {
+        position: absolute;
+        background-color: #e2c800;
+        top: 248px;
+        height: 150%;
+        border-radius: 45px 45px 0px 0px;
+        background-color: #e2c800;
+        padding: 20px;
+      }
+
+      nav {
+        position: relative;
+        width: 75%;
+        height: 100px;
+        background-color: #e2c800;
+        color: #000000;
+        left: 100px;
+        top: 300px;
+      }
+
+      nav > a button {
+        background-color: #000000;
+        width: 183px;
+        height: 87px;
+        border-radius: 25px;
+        text-align: center;
+        border-color: #000000;
+        border-width: 0px;
+        border-style: none;
+        color: #ffffff;
+        font-family: "Playfair Display", serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+        text-transform: lowercase;
+        text-decoration: none;
+      }
+
+      nav > a:hover button {
+        background-color: #e2c800;
+        color: #000000;
+        font-family: "Playfair Display", serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 800;
+        letter-spacing: 4px;
+        text-decoration: none;
+        border-color: #000000;
+        border-width: 1px;
+        border-style: solid;
+        padding: 34px 64px;
+      }
+
+      #heading {
+        position: relative;
+        top: 300px;
+        /* background-color: inherit; */
+        color: #000000;
+        font-family: "Playfair Display", serif;
+        font-size: 64px;
+        font-style: italic;
+        font-weight: 800;
+        line-height: normal;
+        left: 100px;
+      }
+
+      #about::first-letter {
+        font-family: "Playfair Display", serif;
+        font-size: 32px;
+        font-weight: 800;
+        font-style: oblique;
+      }
+
+      #about {
+        position: relative;
+        top: 300px;
+        font-family: "Playfair Display", serif;
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      #why {
+        position: relative;
+        top: 300px;
+        font-family: "Playfair Display", serif;
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      #contact {
+        position: relative;
+        top: 300px;
+        font-family: "Playfair Display", serif;
+        font-size: 24px;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="catto-image"></div>
+      <div class="content">
+        <nav>
+          <a href="#about"><button>About</button></a>
+          <a href="#why"><button>Why</button></a>
+          <a href="#contact"><button>Contact</button></a>
+        </nav>
+
+        <p id="heading">Tanvi's Portfolio</p>
+
+        <section id="about">
+          Hey, everyone! My name is Tanvi, and I'm a junior majoring in Computer
+          Science. I am taking this class to learn more about front-end and also
+          strengthen my foundations in HTML, CSS, and JavaScript. I've mainly
+          been hopping around deserts, starting from Rajasthan, India (desert
+          state of India) to the Middle East, and now Arizona. My hobbies are to
+          play the guitar, play Minecraft, and reading books.
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
