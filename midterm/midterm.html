@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tanvi's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Tanvi's Portfolio</h1>
+        <nav>
+          <a href="#about-me">About Me</a>
+          <a href="#goals">My Goals</a>
+          <a href="#links">Links</a>
+          <a href="#image">Image</a>
+        </nav>
+      </header>
+
+      <section id="about">
+        <section>
+          <h2 id="about-me">About Me!</h2>
+          <p>
+            Hey, everyone! My name is Tanvi, and I'm a junior majoring in
+            Computer Science. I am taking this class to learn more about
+            front-end and also strengthen my foundations in HTML, CSS, and
+            JavaScript. I've mainly been hopping around deserts, starting from
+            Rajasthan, India (desert state of India) to the Middle East, and now
+            Arizona. My hobbies are playing guitar, Minecraft, and reading
+            books.
+          </p>
+        </section>
+
+        <section>
+          <h2 id="goals">My Goals:</h2>
+          <p>
+            My major goal is to get a good-paying job in cybersecurity and buy a
+            nice home in the future. Another goal is to become a proficient
+            guitarist :")
+          </p>
+        </section>
+      </section>
+
+      <section id="extras">
+        <section>
+          <h2 id="links">Links</h2>
+          <p>
+            <a href="https://numbergrids.puzzlebaron.com" target="_blank">
+              My favorite pastime
+            </a>
+          </p>
+        </section>
+
+        <section>
+          <h2 id="image">Image of a Smol Catto</h2>
+          <p><img src="../catto.jpg" /></p>
+        </section>
+
+        <section id="contact-section">
+          <h2 id="contact">Contact Me:</h2>
+          <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send Message" />
+          </form>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
