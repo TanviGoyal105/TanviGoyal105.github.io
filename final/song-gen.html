@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Song Generator</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Shadows+Into+Light+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="song-header">Song Generator</h1>
+    </header>
+    <div class="song-container">
+      <div class="side-bar">
+        <nav>
+          <a href="final.html">Tanvi Goyal</a>
+        </nav>
+      </div>
+
+      <div class="song-content">
+        <div style="align-items: center; display: flex">
+          <button class="gen-song-button" onclick="displayRandomSong()">
+            Click here to generate a random song
+          </button>
+        </div>
+
+        <div>
+          <p>
+            These are some of my favorite songs, let's see how similar our taste
+            is!
+          </p>
+        </div>
+
+        <div id="song" class="song"></div>
+      </div>
+    </div>
+  </body>
+</html>

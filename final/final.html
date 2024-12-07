@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tanvi's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Shadows+Into+Light+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Tanvi Goyal</h1>
+    </header>
+    <div class="container">
+      <div class="side-bar">
+        <nav>
+          <a href="#about-me">About Me</a>
+          <a href="#goals">My Goals</a>
+          <a href="#links">Links</a>
+          <a href="#song-gen">Song Generator</a>
+          <a href="#contact-section">Contact Me</a>
+        </nav>
+      </div>
+
+      <div class="content">
+        <section>
+          <h2 id="about-me">About Me</h2>
+          <p>
+            Hello there! My name is Tanvi, and I'm a junior majoring in Computer
+            Science at Arizona State University. I love coding and
+            problem-solving, along with other hobbies that I enjoy. I listen to
+            music pretty much all the time, whether it's while I'm studying or
+            just hanging out with friends. Taking walks around campus clears my
+            mind while also exercising. And when I need a break from studying, I
+            love watching TV shows and movies. My favorite genres are mystery,
+            mind-bending thriller, and comedy. But that's not all – I also enjoy
+            applying my problem-solving skills to puzzles of all kinds, whether
+            they're programming challenges or jigsaws and sudokus.
+          </p>
+        </section>
+
+        <section>
+          <h2 id="goals">My Goals</h2>
+          <p>
+            My major goal is to get a good-paying job and buy a nice home in the
+            future. I have been practicing my guitar skills so another goal of
+            mine is to become a proficient guitarist!
+          </p>
+        </section>
+
+        <section>
+          <h2 id="links">Links</h2>
+          <p>
+            -->
+            <a href="https://numbergrids.puzzlebaron.com" target="_blank">
+              My favorite pastime
+            </a>
+          </p>
+          <p>
+            -->
+            <a
+              href="https://open.spotify.com/playlist/3gFu6tR12yq1sjrdnsQIxa?si=219309a036bc4f78"
+              target="_blank"
+            >
+              My favorite songs!
+            </a>
+          </p>
+          <p>
+            -->
+            <a href="https://www.netflix.com/title/80100172" target="_blank">
+              A TV show you should definitely watch (it's too good)
+            </a>
+          </p>
+        </section>
+
+        <section>
+          <h2 id="song-gen">
+            Discover new music through this random song generator:
+          </h2>
+          <button
+            class="song-button"
+            title="Song-Generator"
+            onclick="window.location.href='song-gen.html'"
+          >
+            Song Generator ->
+          </button>
+        </section>
+
+        <section id="contact-section">
+          <h2 id="contact">Contact Me</h2>
+          <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send Message" class="send-button" />
+          </form>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

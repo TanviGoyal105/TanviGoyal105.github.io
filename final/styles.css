@@ -1,0 +1,205 @@
+* {
+  font-size: 28px;
+}
+
+body {
+  font-family: Arial;
+}
+
+.container {
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #ffc627;
+  flex-direction: column;
+  padding: 10px;
+  height: 150px;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 54px;
+  font-family: "DM Serif Text";
+  font-weight: 200;
+}
+
+.side-bar {
+  background-color: #8c1d40;
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  align-items: center;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: "DM Serif Text";
+  font-weight: 200;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 160px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "DM Serif Text";
+  font-weight: 200;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #1447ff;
+  font-size: 22px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+p {
+  font-family: "Shadows Into Light Two";
+  font-size: 22px;
+  margin: 0px;
+}
+
+.song-button {
+  cursor: pointer;
+  width: 400px;
+  height: 110px;
+  display: flex;
+  border-radius: 15px;
+  border: none;
+  background-color: #66f295;
+  font-family: "Rubik Burned";
+  font-size: 24px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  gap: 10px;
+}
+
+form label {
+  font-family: "Shadows Into Light Two";
+  font-size: 18px;
+  align-self: flex-start;
+}
+
+form input {
+  font-family: "Shadows Into Light Two";
+  width: 100%;
+  font-size: 14px;
+}
+form textarea {
+  font-family: "Shadows Into Light Two";
+  width: 100%;
+  font-size: 14px;
+}
+
+.send-button {
+  width: 210px;
+  height: 70px;
+  display: flex;
+  border-radius: 15px;
+  border: none;
+  background-color: #f3adec;
+  font-family: "DM Serif Text";
+}
+
+/* SONG-GEN.HTML */
+.song-header {
+  font-size: 54px;
+  font-family: "Rubik Burned";
+  font-weight: 200;
+}
+
+.gen-song-button {
+  cursor: pointer;
+  width: 400px;
+  height: 110px;
+  display: flex;
+  border-radius: 15px;
+  border: none;
+  background-color: #66f295;
+  font-family: "Jolly Lodger";
+  font-size: 24px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.song-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: row;
+}
+
+.song-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+  gap: 40px;
+}
+
+.song {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+  justify-content: center;
+}
+
+.song-image {
+  display: flex;
+  display: block;
+  margin: 0 auto;
+  border: black;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  max-height: 350px;
+}
+
+.song-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
